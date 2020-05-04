@@ -146,7 +146,7 @@ size(mallard, large).
 size(lesser_scaup, large).
 size(long-tailed_duck, large).
 size(mountain_quail, medium).
-size(swainson's_hawk, medium).
+size(swainsons_hawk, medium).
 size(american_crow, medium).
 size(band-tailed_pigeon, medium).
 size(northern_mockingbird, small).
@@ -155,7 +155,7 @@ shape(mallard, duck).
 shape(lesser_scaup, duck).
 shape(long-tailed_duck, duck).
 shape(mountain_quail, neoquail).
-shape(swainson's_hawk, hawk).
+shape(swainsons_hawk, hawk).
 shape(american_crow, crow).
 shape(band-tailed_pigeon, pigeon).
 shape(northern_mockingbird, robin).
@@ -164,7 +164,7 @@ colorList(mallard, [grey]).
 colorList(lesser_scaup, [grey,black]).
 colorList(long-tailed_duck, [white,black]).
 colorList(mountain_quail, [brown,grey]).
-colorList(swainson's_hawk, [brown,grey]).
+colorList(swainsons_hawk, [brown,grey]).
 colorList(american_crow, [black]).
 colorList(band-tailed_pigeon, [grey]).
 colorList(northern_mockingbird, [brown,grey]).
@@ -173,7 +173,7 @@ habitatList(mallard, [wetlands]).
 habitatList(lesser_scaup, [wetlands]).
 habitatList(long-tailed_duck, [wetlands]).
 habitatList(mountain_quail, [chaparral]).
-habitatList(swainson's_hawk, [grasslands]).
+habitatList(swainsons_hawk, [grasslands]).
 habitatList(american_crow, [ubiquitous]).
 habitatList(band-tailed_pigeon, [coniferous_forests]).
 habitatList(northern_mockingbird, [suburban]).
@@ -182,7 +182,7 @@ dietList(mallard, [omnivorous]).
 dietList(lesser_scaup, [insectivorous,herbivorous]).
 dietList(long-tailed_duck, [insectivorous,piscivorous]).
 dietList(mountain_quail, [herbivorous]).
-dietList(swainson's_hawk, [carnivorous]).
+dietList(swainsons_hawk, [carnivorous]).
 dietList(american_crow, [omnivorous]).
 dietList(band-tailed_pigeon, [herbivorous, frugivorous]).
 dietList(northern_mockingbird, [frugivorous, insectivorous]).
@@ -191,7 +191,7 @@ conStat(mallard, lc).
 conStat(lesser_scaup, lc).
 conStat(long-tailed_duck, vu).
 conStat(mountain_quail, lc).
-conStat(swainson's_hawk, lc).
+conStat(swainsons_hawk, lc).
 conStat(american_crow, lc).
 conStat(band-tailed_pigeon, lc).
 conStat(northern_mockingbird, lc).
@@ -200,7 +200,7 @@ flightPatList(mallard, [strongFlap,direct]).
 flightPatList(lesser_scaup, [rapidFlap,direct]).
 flightPatList(long-tailed_duck, [direct,rapidTurn]).
 flightPatList(mountain_quail, [strongFlap,gliding]).
-flightPatList(swainson's_hawk, [strongFlap,gliding]).
+flightPatList(swainsons_hawk, [strongFlap,gliding]).
 flightPatList(american_crow, [slowFlap,direct]).
 flightPatList(band-tailed_pigeon, [strongFlap,direct]).
 flightPatList(northern_mockingbird, [rapidFlap,rapidTurn]).
@@ -209,7 +209,7 @@ callTypeList(mallard, [quacking]).
 callTypeList(lesser_scaup, [whistling,trilling]).
 callTypeList(long-tailed_duck, [honking]).
 callTypeList(mountain_quail, [whistling,chirping]).
-callTypeList(swainson's_hawk, [whistling]).
+callTypeList(swainsons_hawk, [whistling]).
 callTypeList(american_crow, [cawing]).
 callTypeList(band-tailed_pigeon, [chirping, cooing]).
 callTypeList(northern_mockingbird, [chirping, whistling]).
