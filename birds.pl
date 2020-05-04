@@ -1,33 +1,49 @@
 contains(Target, [Target|ListRem]).
 contains(Target, [NotTarget|ListRem]) :-
 	contains(Target, ListRem).
-printAppearance(Bird) :-
+printSize(Bird) :-
 	size(Bird, Size),
-	shape(Bird, Shape),
-	colorList(Bird, Colors),
 	write('Size: '),
-	writeln(Size),
+	writeln(Size).
+printShape(Bird) :-
+	shape(Bird, Shape),
 	write('Shape: '),
-	writeln(Shape),
+	writeln(Shape).
+printColors(Bird) :-
+	colorList(Bird, Colors),
 	write('Colors: '),
 	writeln(Colors).
-printEnviro(Bird) :-
+printHabitats(Bird) :-
 	habitatList(Bird, HabitatL),
-	dietList(Bird, DietL),
-	conStat(Bird, ConStat),
 	write('Habitats Common: '),
-	writeln(HabitatL),
+	writeln(HabitatL).
+printDiets(Bird) :-
+	dietList(Bird, DietL),
 	write('Primary Diets: '),
-	writeln(DietL),
+	writeln(DietL).
+printConStat(Bird) :-
+	conStat(Bird, ConStat),
 	write('Conservation Status: '),
 	writeln(ConStat).
-printBehavior(Bird) :-
+printFlightPats(Bird) :-
 	flightPatList(Bird, FlightPatL),
-	callTypeList(Bird, CallL),
 	write('Flight Pattern Characteristics: '),
-	writeln(FlightPatL),
+	writeln(FlightPatL).
+printCalls(Bird) :-
+	callTypeList(Bird, CallL),
 	write('Most Common Calls: '),
 	writeln(CallL).
+printAppearance(Bird) :-
+	printSize(Bird),
+	printShape(Bird),
+	printColors(Bird).
+printEnviro(Bird) :-
+	printHabitats(Bird),
+	printDiets(Bird),
+	printConStat(Bird).
+printBehavior(Bird) :-
+	printFlightPats(Bird),
+	printCalls(Bird).
 printCasual(Bird) :-
 	printAppearance(Bird),
 	printBehavior(Bird).
