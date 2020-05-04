@@ -174,7 +174,7 @@ habitatList(lesser_scaup, [wetlands]).
 habitatList(long-tailed_duck, [wetlands]).
 habitatList(mountain_quail, [chaparral]).
 habitatList(swainson's_hawk, [grasslands]).
-habitatList(american_crow, [Ubiquitous]).
+habitatList(american_crow, [ubiquitous]).
 habitatList(band-tailed_pigeon, [coniferous_forests]).
 habitatList(northern_mockingbird, [suburban]).
 habitatList(california_gull, [coast]).
