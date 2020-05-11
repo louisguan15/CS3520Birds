@@ -83,17 +83,17 @@ behaviorSrx(Bird, FlightPat, Call) :-
 	flightPatSrx(Bird, FlightPat),
 	callTypeSrx(Bird, Call).
 casualSrx(Bird, Size, Shape, Color, FlightPat, Call) :-
-	appearance(Bird, Size, Shape, Color),
-	behavior(Bird, FlightPat, Call).
+	appearanceSrx(Bird, Size, Shape, Color),
+	behaviorSrx(Bird, FlightPat, Call).
 biologySrx(Bird, Habitat, Diet, ConStat, FlightPat, Call) :-
-	enviro(Bird, Habitat, Diet, ConStat),
-	behavior(Bird, FlightPat, Call).
+	enviroSrx(Bird, Habitat, Diet, ConStat),
+	behaviorSrx(Bird, FlightPat, Call).
 encycloSrx(Bird, Size, Shape, Color, Habitat, Diet, ConStat) :-
-	appearance(Bird, Size, Shape, Color),
-	enviro(Bird, Habitat, Diet, ConStat).
+	appearanceSrx(Bird, Size, Shape, Color),
+	enviroSrx(Bird, Habitat, Diet, ConStat).
 comprehensiveSrx(Bird, Size, Shape, Color, Habitat, Diet, ConStat, FlightPat, Call) :-
-	encyclo(Bird, Size, Shape, Color, Habitat, Diet, ConStat),
-	behavior(Bird, FlightPat, Call).
+	encycloSrx(Bird, Size, Shape, Color, Habitat, Diet, ConStat),
+	behaviorSrx(Bird, FlightPat, Call).
 sameSize(InBird, OutBird) :-
 	size(InBird, Size),
 	size(OutBird, Size).
